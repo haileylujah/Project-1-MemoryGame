@@ -50,34 +50,34 @@ header {
 }
 
 .pair1 {
-  content: url(../imgs/pair1.png);
+  content: url(../imgs/pair-1.png);
 }
 .pair2 {
-  content: url(../imgs/pair2.png);
+  content: url(../imgs/pair-2.png);
 }
 .pair3 {
-  content: url(../imgs/pair3.png);
+  content: url(../imgs/pair-3.png);
 }
 .pair4 {
-  content: url(../imgs/pair4.png);
+  content: url(../imgs/pair-4.png);
 }
 .pair5 {
-  content: url(../imgs/pair5.png);
+  content: url(../imgs/pair-5.png);
 }
 .pair6 {
-  content: url(../imgs/pair6.png);
+  content: url(../imgs/pair-6.png);
 }
 .pair7 {
-  content: url(../imgs/pair7.png);
+  content: url(../imgs/pair-7.png);
 }
 .pair8 {
-  content: url(../imgs/pair8.png);
+  content: url(../imgs/pair-8.png);
 }
 .pair9 {
-  content: url(../imgs/pair9.png);
+  content: url(../imgs/pair-9.png);
 }
 .pair0 {
-  content: url(../imgs/pair10.png);
+  content: url(../imgs/pair-10.png);
 }
 .hidden {
   background-color: white;
