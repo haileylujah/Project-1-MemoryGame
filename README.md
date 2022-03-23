@@ -1,6 +1,6 @@
 A README.md file with these sections:
 
-☐ <Your game's title>: A description of your game. Background info of the game is a nice touch.
+☐ <Memory Game>: A description of your game. Background info of the game is a nice touch.
 
 ☐ Screenshot(s): Images of your actual game.
 

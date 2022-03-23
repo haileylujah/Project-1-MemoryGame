@@ -10,9 +10,11 @@
 </head>
 <body>
     <header>
-        <h3 id="the">the </h3>
-        <h1 id="game"> MEMORY GAME</h1>
+        <!-- <h3 id="the">the </h3>
+        <h1 id="game"> MEMORY GAME</h1> -->
+        <div id="logo"><img src="./imgs/Memory logo.png"></div>
     </header>
+
     <div id="block1" class="row">
         <div id="1" class="card_with_hover hidden" onclick="clickedOn(event)"></div>
         <div id="2" class="card_with_hover hidden" onclick="clickedOn(event)"></div>
@@ -41,6 +43,7 @@
         <div id="19" class="card_with_hover hidden" onclick="clickedOn(event)"></div>
         <div id="20" class="card_with_hover hidden" onclick="clickedOn(event)"></div>
     </div>
+    
     <div><button id="retry" onclick="newGame(event)">REPLAY</button></div>
 
     <div id="msg"></div>

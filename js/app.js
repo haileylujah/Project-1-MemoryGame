@@ -21,6 +21,9 @@ for (i=0; validator;) {
 function clickedOn(event) {
     const target = event.currentTarget;
     if(preventClick || target.className.includes('matched')) {return};
+    if(target.className + ' matched' ===10) {
+        return "Congrats!"
+    };
     target.className = target.className.replace('card_with_hover hidden', 'card_without_hover'+ ' pair'+image_position[target.getAttribute('id') -1]).trim();
     console.log(target.className);
 
@@ -67,9 +70,3 @@ function newGame(event) {
    }
 }
 
-function render() {
-   if ('matched'=== 10) {
-      renderCongratsMsg("Congrats! You found all matches!")
-   }
-} 
-render()
