@@ -21,12 +21,10 @@ for (i=0; validator;) {
 function clickedOn(event) {
     const target = event.currentTarget;
     if(preventClick || target.className.includes('matched')) {return};
-    if(target.className + ' matched' ===10) {
-        return "Congrats!"
-    };
+ 
     target.className = target.className.replace('card_with_hover hidden', 'card_without_hover'+ ' pair'+image_position[target.getAttribute('id') -1]).trim();
     console.log(target.className);
-
+    
     if (!clickedCard) {
         clickedCard = target;
 
@@ -46,7 +44,18 @@ function clickedOn(event) {
              },500);
          };
          
-    }};
+    };
+    for (i=0; i<4; i++){
+      for(r=0; r<5; r++){
+         if(!document.querySelector('#block'+(i+1)).getElementsByTagName('div')[r].className.includes('matched')) {
+            //console.log('not finish');
+            return
+         }
+      }
+  };
+  //console.log('finished');
+  document.querySelector('#messag').className = '';
+   };
 
 
 function newGame(event) {
@@ -68,5 +77,6 @@ function newGame(event) {
         document.querySelector('#block'+(i+1)).getElementsByTagName('div')[r].className = "card_with_hover hidden";
        }
    }
+   document.querySelector('#messag').className = 'hidden_msg'
 }
 

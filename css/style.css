@@ -2,7 +2,6 @@ body {
   align-items: center;
   justify-content: center;
   background-image: url(../imgs/background.jpg);
-  /* background-color: lightskyblue; */
   margin-top: 7vh;
   background-size: 167vh;
 }
@@ -12,6 +11,13 @@ div {
   flex-direction: row;
   justify-content: center;
   margin: 1px 2px 1px 2px;
+}
+
+div1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1px 2px -40px 2px;
 }
 
 header {
@@ -105,3 +111,12 @@ img {
 button {
     background-color: white;
 }
+
+.hidden_msg {
+  display: none;
+}
+
+img {
+width: 80vh;
+height: auto;
+} 
