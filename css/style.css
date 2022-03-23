@@ -26,12 +26,6 @@ header {
   justify-content: center;
 }
 
-img {
-  width: 60vh;
-  height: auto;
-  margin-bottom: 7vh;
-}
-
 .row {
   text-align: center;
 }
@@ -40,7 +34,6 @@ img {
   display: inline-block;
   width: 100px;
   height: 100px;
-  background-color: #eee;
   cursor: pointer;
 }
 
@@ -87,11 +80,7 @@ img {
 }
 .hidden {
   background-color: white;
-}
-
-.image_hidden {
-  display: none;
-}
+} 
 
 #retry {
   display: flex;

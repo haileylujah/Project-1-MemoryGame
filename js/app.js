@@ -1,19 +1,32 @@
+/*
+1. initiate a new game
+   a. place images into all slots
 
-let clickedCard = null;
+2. when you click on the first block, flip a block and show the image
+3. when you click on the second block, flip the block and show the image
+   a. check if the second click == the first click
+   b. if yes, return
+4. check if those 2 images are the same
+5. if images ==, then do nothing, else, flip back both blocks
+6. check if we finish the game
+*/
+
+
+let clickedCard = null; // to hold the first click slot
 let preventClick = false;
 
+let image_holder = [0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9];
 let image_position = [];
-let count_holder = [0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9];
 let validator = true;
 
-
-for (i=0; validator;) {
-     num = Math.floor(Math.random() * 10);
-     if(count_holder.includes(num)) {
-        image_position.push(num);
-        count_holder.splice(count_holder.indexOf(num),1);
+// randomly put 10 images into 20 slots
+while (validator) {
+     num = Math.floor(Math.random() * 10); //floor function
+     if(image_holder.includes(num)) {
+      image_holder.splice(image_holder.indexOf(num),1);
+      image_position.push(num);
      }
-     if(count_holder.length == 0) {
+     if(image_holder.length == 0) {
         validator=false
      }
 };
@@ -22,8 +35,7 @@ function clickedOn(event) {
     const target = event.currentTarget;
     if(preventClick || target.className.includes('matched')) {return};
  
-    target.className = target.className.replace('card_with_hover hidden', 'card_without_hover'+ ' pair'+image_position[target.getAttribute('id') -1]).trim();
-    console.log(target.className);
+    target.className = target.className.replace('card_with_hover hidden', 'card_without_hover' + ' pair'+image_position[target.getAttribute('id') -1]).trim();
     
     if (!clickedCard) {
         clickedCard = target;
@@ -48,27 +60,27 @@ function clickedOn(event) {
     for (i=0; i<4; i++){
       for(r=0; r<5; r++){
          if(!document.querySelector('#block'+(i+1)).getElementsByTagName('div')[r].className.includes('matched')) {
-            //console.log('not finish');
+            // if there's one unmatched, get out of this function and go back to ^
             return
          }
       }
   };
-  //console.log('finished');
+  // if all matched, message show
   document.querySelector('#messag').className = '';
    };
 
 
 function newGame(event) {
     image_position = [];
-    count_holder = [0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9];
+    image_holder = [0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9];
     validator = true;
-    for (i=0; validator;) {
+    while (validator) {
         num = Math.floor(Math.random() * 10);
-        if(count_holder.includes(num)) {
-           image_position.push(num);
-           count_holder.splice(count_holder.indexOf(num),1);
+        if(image_holder.includes(num)) {
+         image_holder.splice(image_holder.indexOf(num),1);
+         image_position.push(num);
         }
-        if(count_holder.length == 0) {
+        if(image_holder.length == 0) {
            validator=false
         }
    };
