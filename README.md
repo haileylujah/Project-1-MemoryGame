@@ -2,10 +2,13 @@
 
 ### The memory game is a common children's game played with a set of cards. The cards have a pictures on one side and each picture appears on two. The object of the game is to collect pairs.
 
-### Wireframes:
+### Screenshot:
 ![Game](https://github.com/harnilin/Memory-Game/blob/master/imgs/Screenshot.png?raw=true)
 
-### Technologies Used: JavaScript, HTML, CSS.
+### Technologies Used: 
+* JavaScript
+* HTML
+* CSS
 
 ### Assets Used:
 * Background image from (https://www.rawpixel.com/image/3404441/free-illustration-vector-kids-background-cute-frame)
@@ -20,5 +23,3 @@
 * Add sound effects upon actions
 * Add countdown timer so that player loses the game if could not find all pairs in a certain period of time
 * Add more sets of cards
-
-☐ Frequent commits dating back to the very beginning of the project. Never delete you repo to "start over". Commit messages should be in the present tense, e.g., "Style game board" instead of "Styled game board". Be sure to create the repo on your personal GitHub account and ensure that it is "public".
