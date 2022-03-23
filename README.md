@@ -1,6 +1,7 @@
 # MEMORY CHALLENGE
 
-### The memory game is a common children's game played with a set of cards. The cards have a pictures on one side and each picture appears on two. The object of the game is to collect pairs.
+### Description of the game:
+The memory game is a common children's game played with a set of cards. The cards have a pictures on one side and each picture appears on two. The object of the game is to collect pairs.
 
 ### Screenshot:
 ![Game](https://github.com/harnilin/Memory-Game/blob/master/imgs/Screenshot.png?raw=true)
@@ -22,4 +23,5 @@
 * Add animations
 * Add sound effects upon actions
 * Add countdown timer so that player loses the game if could not find all pairs in a certain period of time
+    * Add loss message
 * Add more sets of cards
