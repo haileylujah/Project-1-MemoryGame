@@ -1,4 +1,4 @@
-# H1 MEMORY CHALLENGE
+# MEMORY CHALLENGE
 
 # H3 The memory game is a common children's game played with a set of cards. The cards have a pictures on one side and each picture appears on two. The object of the game is to collect pairs.
 
