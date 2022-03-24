@@ -33,15 +33,15 @@ header {
 
 .card_with_hover {
   display: inline-block;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   cursor: pointer;
 }
 
 .card_without_hover {
   display: inline-block;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   background-color: rgb(253, 227, 179);
 }
 
@@ -87,7 +87,7 @@ header {
   display: flex;
   font-family: cursive;
   font-size: 2vmin;
-  margin-top: 2vh;
+  margin-top: 4vh;
   border: 0.2vmin solid rgb(0, 0, 0);
   color: rgb(0, 0, 0);
   border-radius: 1vmin;
