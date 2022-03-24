@@ -15,7 +15,7 @@ The memory game is a common children's game played with a set of cards. The card
 * HTML
 * CSS
 
-### Assets Used:
+### Resources Used:
 * Background image from (https://www.rawpixel.com/image/3404441/free-illustration-vector-kids-background-cute-frame)
 * Game logo from (https://www.clipartmax.com/max/m2H7K9A0i8Z5A0G6/)
 * Win message banner from (https://pngset.com/download-free-png-jeyip)
