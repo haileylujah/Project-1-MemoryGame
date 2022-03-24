@@ -1,9 +1,12 @@
 # MEMORY CHALLENGE
 
+## Launch the game!
+
 ### Description of the game:
 The memory game is a common children's game played with a set of cards. The cards have a pictures on one side and each picture appears on two. The object of the game is to collect pairs.
 
 ### Screenshot:
+![Wireframe](https://github.com/harnilin/Memory-Game/blob/master/imgs/Wireframe.png?raw=true)
 ![Game](https://github.com/harnilin/Memory-Game/blob/master/imgs/Screenshot.png?raw=true)
 
 ### Technologies Used: 
@@ -15,9 +18,7 @@ The memory game is a common children's game played with a set of cards. The card
 * Background image from (https://www.rawpixel.com/image/3404441/free-illustration-vector-kids-background-cute-frame)
 * Game logo from (https://www.clipartmax.com/max/m2H7K9A0i8Z5A0G6/)
 * Win message banner from (https://pngset.com/download-free-png-jeyip)
-* Deck background from (https://iconarchive.com/show/noto-emoji-animals-nature-icons-by-google.1.html)
-
-☐ Getting Started: In this section include the link to your deployed game and any instructions you deem important.
+* Cards images from (https://iconarchive.com/show/noto-emoji-animals-nature-icons-by-google.1.html)
 
 ### Planned future enhancements.
 * Add animations
