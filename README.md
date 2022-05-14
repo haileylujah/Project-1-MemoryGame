@@ -1,7 +1,7 @@
 # MEMORY CHALLENGE
 
 ## Launch the game!
-* (https://harnilin.github.io/Memory-Game/)
+* (https://haileylujah.github.io/Memory-Game/)
 
 ### Description of the game:
 The memory game is a common children's game played with a set of cards. The cards have a pictures on one side and each picture appears on two. The object of the game is to collect pairs.
